@@ -59,5 +59,6 @@ def init_model(engine):
 
 # Import your model modules here.
 from cosbackend.model.auth import User, Group, Permission
+from cosbackend.model.player import Player
 
-__all__ = ('User', 'Group', 'Permission')
+__all__ = ('User', 'Group', 'Permission', 'Player')
